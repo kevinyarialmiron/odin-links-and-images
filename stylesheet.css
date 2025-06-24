@@ -36,14 +36,15 @@ nav{
 
 div{
   display: flex;
-  justify-content: space-around;
+  flex-direction: column;
+  justify-content: center;
   align-items: center;
   color: white;
   padding: 10px;
   margin: 10px;
   /*width: 90px;
   height: 90px;*/
-  background-color: #1a5276;
+  background-color: #58b7f3;
 }
 
 .blue {
@@ -71,4 +72,8 @@ h1{
   text-align: center;
   border: solid black;
   border-radius: 20px;
+}
+
+h3{
+  color: blue;
 }
