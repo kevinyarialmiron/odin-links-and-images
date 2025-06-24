@@ -1,3 +1,14 @@
+ul{
+  display: flex;
+  flex-direction: column ;
+  justify-content: center;
+  align-items: center;
+}
+
+h2{
+  display: flex;
+  justify-content: center;
+}
 
 li {
   color: #2c3e50;
@@ -14,4 +25,50 @@ li:hover {
   background-color: #d1e7fd;
   color: #1a5276;
   cursor: pointer;
+}
+
+nav{
+  display:flex;
+  justify-content: space-around;
+  background-color: aqua;
+
+}
+
+div{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  color: white;
+  padding: 10px;
+  margin: 10px;
+  /*width: 90px;
+  height: 90px;*/
+  background-color: #1a5276;
+}
+
+.blue {
+  flex: 3;
+  background-color: #1a5276;
+  text-align: right;
+}
+
+.red{
+  flex: 2;
+  background-color: red;
+  text-align: center;
+  justify-content: center;
+}
+
+.green{
+  flex: 3;
+  background-color: green;
+  text-align: left;
+}
+
+h1{
+  color: rgb(255, 255, 255);
+  background-color: hsl(36, 100%, 62%);
+  text-align: center;
+  border: solid black;
+  border-radius: 20px;
 }
